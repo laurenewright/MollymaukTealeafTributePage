@@ -1,0 +1,77 @@
+#container {
+    background-color: #D7D3D2;
+  /*   columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2; */
+    display: flex;
+    justify-content: center;
+  /*   padding-top: 15px; */
+  }
+  
+  #description{
+      background-color: #D7D3D2;
+  }
+  
+  body {
+    background-image: url("https://vignette.wikia.nocookie.net/criticalrole/images/5/50/Wiki-background/revision/latest?cb=20200719230034");
+    background-attachment: fixed;
+  }
+  
+  h1, #img-caption {
+    text-align: center;
+  }
+  h1 {
+    background-color: #3A5472;
+  }
+  
+  img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+  }
+  
+  
+  #profile {
+    background-color: #E7E0DD;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    justify-content: center;
+  }
+  
+  .title {
+    font-weight: bold;
+  }
+  
+  table {
+    border-collapse: collapse;
+  }
+  
+  table tr {
+    border-bottom: 1px solid #3A5472;
+  }
+  
+  table tr:last-child {
+    border: 0;
+  }
+  
+  footer {
+    text-align: center;
+    background-color: #D7D3D2; 
+    width: 50%;
+    justify-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  
+  #content {
+    background-color: #D7D3D2; 
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
